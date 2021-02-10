@@ -23,13 +23,13 @@ pip install -r requirements.txt
 
 ## Running Pytest
 To run a single test:
-`pytest -v test\test_test[0-5].py`
+`pytest -v app/test/test_test[0-5].py`
 
 To run all tests with code coverage report:
-`pytest --cov=.`
+`pytest -v --cov=app`
 
 ## Steps in Unit Testings
-1. Add a test under the `test` directory
+1. Add a test under the `app/test` directory
 1. Fail the test
 1. Write the simplest code to pass test
 1. Pass the test
