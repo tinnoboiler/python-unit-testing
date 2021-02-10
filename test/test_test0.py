@@ -1,6 +1,5 @@
 from . import Test
-from test0 import multiply
+from test0 import spin_words
 
-def test_multiply():        
-    Test.assertEqual(multiply(2, 3), 6, "2 * 3 should return 6")
-    Test.assertEqual(multiply(4, 5), 20, "4 * 5 should return 20")    
+def test_spin_words():     
+    Test.assertEqual(spin_words("Welcome to Singapore"), "emocleW to eropagniS")    
