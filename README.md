@@ -21,6 +21,13 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
+## Project Structure
+```
+/app (main app dir)
+  |__ test (unit tests)
+```
+Each python code file would correspond with a test file under `/test` e.g. `app/test0.py` with `app/test/test_test0.py` etc.
+
 ## Running Pytest
 To run a single test:
 `pytest -v app/test/test_test[0-5].py`
@@ -35,3 +42,6 @@ To run all tests with code coverage report:
 1. Pass the test
 1. Refactor code as needed
 1. Repeat above steps until every requirement is done
+
+## Python Unit Test Cheat Sheet
+Download a [PDF cheat sheet for Beginners](https://edu.anarcho-copy.org/Programming%20Languages/Python/Python%20CheatSheet/beginners_python_cheat_sheet_pcc_testing.pdf) for your reference.
