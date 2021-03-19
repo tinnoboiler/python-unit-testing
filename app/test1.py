@@ -11,8 +11,5 @@ get_count("abracadabra") -> 5
 
 def get_count(inputStr: str)->int:
     num_vowels = 0
-    # your code here. hint:you may use 'for', 'in' and 'sum'
-    for char in inputStr:
-        if char in ['a', 'e', 'i', 'o', 'u']:
-            num_vowels += 1            
+    # your code here. hint:you may use 'for', 'in' and 'sum'        
     return num_vowels    

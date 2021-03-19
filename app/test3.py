@@ -15,11 +15,5 @@ Examples:
 
 def order(sentence: str)->str:
   # code here. hint: you may use split, string[-1] and join    
-  words = sentence.split()
-  # initialise a list of words
-  word_list = [ word for word in words ]
-  # reorder the list
-  for word in words:
-    word_list[int(word[-1]) - 1] = word
 
-  return " ".join(word_list)
+  return
