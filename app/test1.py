@@ -1,18 +1,16 @@
 """
-Return the number (count) of vowels in the given string.
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed.
+Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
-We will consider a, e, i, o, and u as vowels.
+Examples:
+spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw"
+spinWords( "This is a test") => returns "This is a test"
+spinWords( "This is another test" )=> returns "This is rehtona test"
 
-The input string will only consist of lower case letters and/or spaces.
-e.g. 
-get_count('xesdac') -> 2
-get_count("abracadabra") -> 5
+Before you begin, complete its unit test case under the test directory.
 """
 
-def get_count(inputStr: str)->int:
-    num_vowels = 0
-    # your code here. hint:you may use 'for', 'in' and 'sum'
-    for char in inputStr:
-        if char in ['a', 'e', 'i', 'o', 'u']:
-            num_vowels += 1            
-    return num_vowels    
+def spin_words(sentence):
+    new_sentence = []
+    # start coding below
+    return

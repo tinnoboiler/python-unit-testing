@@ -1,9 +1,9 @@
 from unittest import TestCase
-from app.test1 import get_count
+from app.test1 import spin_words
 
 
 class Test1(TestCase):
 
-    def test_get_count(self):
-        self.assertEqual(get_count("abracadabra"), 5)
-        self.assertEqual(get_count("xesdac"), 2)
+    def test_spin_words(self):
+        # start by writing assert test below
+        # self.assertEqual()
