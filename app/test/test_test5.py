@@ -1,13 +1,10 @@
 import unittest
-from unittest.mock import patch
 from app.test5 import compute
+from unittest.mock import patch
 
-# smart mock function
-def smart_compute(x):
-    return x * 2
 
-class Test4(unittest.TestCase):
-    
+class Test5(unittest.TestCase):
+
     def test_compute(self):
         expected = 12
         actual = compute(6)

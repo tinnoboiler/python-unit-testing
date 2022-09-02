@@ -1,11 +1,24 @@
-import time
+'''
+Your task is to sort a given string.
+Each word in the string will end with a single number.
 
-# let's imagine your app needs to make an expensive api call
-def compute(x):
-    response = expensive_api_call()
-    return response + x
+This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string.
+The words in the input String will only contain valid consecutive numbers.
+
+Examples:
+    "is2 This1 Test5 a3"  -->  "This1 is2 a3 Test4"
+    "of4 For1 people6 good3 the5 the2"  -->  "For1 the2 good3 of4 the5 people6"
+    ""  -->  ""
+
+Before you begin, complete its unit test case under the test directory.
+'''
 
 
-def expensive_api_call():
-    time.sleep(1000) # takes 1,000 seconds
-    return 123
+def order(sentence: str) -> str:
+    # code here. hint: you may use split, string[-1] and join
+
+    return

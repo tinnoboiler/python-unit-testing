@@ -1,19 +1,16 @@
-'''
-Your task is to sort a given string. Each word in the string will end with a single number. 
+"""
+Find and return the length of the longest word, as a number.
 
-This number is the position the word should have in the result.
+There will only be one 'longest' word.
 
-Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+e.g. find_longest("Lets all go on holiday") --> 7
 
-If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+Before you begin, complete its unit test case under the test directory.
+"""
 
-Examples:
-    "is2 This1 Test5 a3"  -->  "This1 is2 a3 Test4"
-    "of4 For1 people6 good3 the5 the2"  -->  "For1 the2 good3 of4 the5 people6"
-    ""  -->  ""
-'''
 
-def order(sentence: str)->str:
-  # code here. hint: you may use split, string[-1] and join    
+def find_longest(sentence: str) -> int:
+    longest = 0
+    # code here. hint: you may use 'split' and 'len'
 
-  return
+    return longest

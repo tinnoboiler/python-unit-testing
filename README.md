@@ -10,14 +10,14 @@ Change to the repo directory using `cd python-unit-testing`.
 For Linux and MacOS
 ```
 python3 -m venv venv
-source venv/bin/activate 
+source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
 For Windows
 ```
 python -m venv venv
-source venv/Scripts/activate 
+source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
@@ -30,7 +30,7 @@ Each python code file would correspond with a test file under `/test` e.g. `app/
 
 ## Running Pytest
 To run a single test:
-`pytest -v app/test/test_test[0-5].py`
+`pytest -v app/test/test_test[*].py`
 
 To run all tests with code coverage report:
 `pytest -v --cov=app`
