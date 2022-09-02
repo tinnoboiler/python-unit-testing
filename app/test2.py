@@ -11,7 +11,11 @@ get_count("abracadabra") -> 5
 Before you begin, complete its unit test case under the test directory.
 """
 
-def get_count(inputStr: str)->int:
+
+def get_count(inputStr: str) -> int:
     num_vowels = 0
     # your code here. hint:you may use 'for', 'in' and 'sum'
+    for char in inputStr:
+        if char in ['a', 'e', 'i', 'o', 'u']:
+            num_vowels += 1
     return num_vowels

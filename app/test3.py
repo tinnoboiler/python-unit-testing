@@ -8,7 +8,11 @@ e.g. find_longest("Lets all go on holiday") --> 7
 Before you begin, complete its unit test case under the test directory.
 """
 
-def find_longest(sentence: str)->int:
-    # code here. hint: you may use 'split' and 'len'
 
-    return
+def find_longest(sentence: str) -> int:
+    # code here. hint: you may use 'split' and 'len'
+    longest = 0
+    for word in sentence.split():
+        if len(word) > longest:
+            longest = len(word)
+    return longest
